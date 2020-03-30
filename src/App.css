@@ -1,5 +1,14 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif
+}
+
+body {
+  background-image: url(./bg.png)
+}
 .App {
   text-align: center;
+  font-family: "Roboto"
 }
 
 .App-logo {
@@ -35,4 +44,103 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.chrome-trigger {
+  display: none !important;
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+
+.chrome-category {
+  color: rgb(255, 255, 255);
+  margin-right: 6px;
+  border-radius: 2px;
+  padding: 1.2px 3px;
+}
+
+.chrome-category > b {
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+.chrome-shortcut {
+  float: right;
+  margin-right: 2px;
+  color: rgb(150, 150, 150);
+  display: inline-block;
+}
+
+.chrome-category.Оrder.actions {
+  background: rgb(0, 188, 212);
+}
+
+.chrome-category.System {
+  background: rgb(76, 174, 80);
+}
+
+.chrome-category.Network {
+  background: rgb(63, 81, 181);
+}
+
+.chrome-category.Navigate {
+  background: rgb(255, 182, 0);
+}
+
+.chrome-category.Drawer {
+  background: rgb(0, 149, 136);
+}
+
+.chrome-category.Catalog {
+  background: rgb(122, 109, 136);
+}
+
+.chrome-category.Inventory {
+  background: rgb(146, 54, 76);
+}
+
+.chrome-category.Orders {
+  background: rgb(54, 126, 102);
+}
+
+.chrome-category.Purchasing {
+  background: rgb(126, 119, 54);
+}
+
+.chrome-category.Customers {
+  background: rgb(55, 54, 126);
+}
+
+.chrome-category.Support {
+  background: rgb(126, 54, 72);
+}
+
+.sellercloud-command-palette.chrome-modal {
+  min-width: 555px;
+}
+
+.sellercloud-command-palette .chrome-container {
+  font-family: "Roboto", sans-serif !important;
+  width: 100% !important;
+}
+
+.sellercloud-command-palette .chrome-suggestion {
+  padding: 4px 3px;
+  font-size: 13px;
+}
+
+.sellercloud-command-palette .chrome-category {
+  padding: 4px 5px;
+  
+  font-weight: 600;
+}
+
+.sellercloud-command-palette .chrome-input {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 400;
+  width: 100% !important;
 }
